@@ -1,24 +1,44 @@
 {
-  "name": "uikit-site-vue-cli",
-  "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "node": "^10.16.0",
-    "yarn": "^1.17.2"
-  },
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
-    "dotenv-safe": "^6.1.0",
-    "vue-template-compiler": "^2.6.10"
-  }
+	"name": "uikit-site-vue-cli",
+	"version": "0.1.0",
+	"private": true,
+	"engines": {
+		"node": "^10.16.0",
+		"yarn": "^1.17.2"
+	},
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"clipboard": "^2.0.4",
+		"core-js": "^2.6.5",
+		"he": "^1.2.0",
+		"highlight.js": "^9.15.8",
+		"marked": "^0.7.0",
+		"uikit": "^3.1.6",
+		"uniqid": "^5.0.3",
+		"vue": "^2.6.10",
+		"vue-router": "^3.0.7"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.9.0",
+		"@vue/cli-service": "^3.9.0",
+		"dotenv-safe": "^6.1.0",
+		"less": "^3.9.0",
+		"less-loader": "^5.0.0",
+		"vue-template-compiler": "^2.6.10"
+	},
+	"optionalDependencies": {
+		"babel-eslint": "^10.0.1",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"eslint": "^5.10.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-node": "^8.0.0",
+		"eslint-plugin-promise": "^4.0.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"eslint-plugin-vue": "^5.0.0"
+	}
 }

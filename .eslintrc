@@ -1,0 +1,46 @@
+{
+	"extends": [
+		"standard",
+		"plugin:vue/base"
+	],
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"indent": ["error", "tab", {
+			"SwitchCase": 1
+		}],
+		"space-before-function-paren": "off",
+		"semi": ["error", "never"],
+		"no-tabs": "off",
+		"comma-dangle": "off",
+		"no-unused-vars": ["error", {
+			"vars": "all",
+			"args": "none",
+			"ignoreRestSiblings": false
+		}],
+		"no-new": "off",
+		"vue": {
+			"script-indent": [
+				"error",
+				"tab",
+				{
+					"baseIndent": 1
+				}
+			]
+		}
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+	"overrides": [
+		{
+			"files": ["*.vue"],
+			"rules": {
+				"indent": "off"
+			}
+		}
+	]
+}

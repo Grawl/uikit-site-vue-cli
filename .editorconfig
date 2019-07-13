@@ -1,5 +1,15 @@
-[*.{js,jsx,vue}]
-indent_style = space
-indent_size = 2
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+[/*.{js,json}]
+indent_style = tab
+indent_size = 4
+
+[src/{**.js,**.vue,**.jsoon,**.scss,**.sass}]
+indent_style = tab
+indent_size = 4
